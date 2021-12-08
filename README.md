@@ -49,3 +49,22 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/learning-go-8399317
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875237/2875237-1616177158000-16x9.jpg
+
+
+## Additional notes
+To build calculator for different OS, you must use this command first:
+export GOOS='windows'
+
+IE:
+Windows:
+export GOOS='windows' && go build -o calculatorWindows.exe main.go
+
+or
+Linux:
+export GOOS='linux' && go build -o calculatorLinux main.go
+
+or
+MAC:
+export GOOS='darwin' && go build -o calculatorMac main.go
+
+
